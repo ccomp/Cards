@@ -15,7 +15,6 @@ public class Deck {
        }
        cardsUsed = 0;
     }
-    
     public void shuffle() {
         for ( int i = 51; i > 0; i-- ) {
             int rand = (int)(Math.random()*(i+1));
